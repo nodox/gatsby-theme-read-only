@@ -21,23 +21,26 @@ const IndexPage = () => (
         as={Menu}
         animation='overlay'
         icon='labeled'
-        inverted
         direction='right'
         // onHide={this.handleSidebarHide}
         vertical
-        visible={true}
+        visible={false}
         width='wide'
       >
         <Menu.Item as='a'>
-          Home
+          About
         </Menu.Item>
         <Menu.Item as='a'>
-          Games
+          Things I Can Do
         </Menu.Item>
         <Menu.Item as='a'>
-          Channels
+          A Few Accomplishments
+        </Menu.Item>
+        <Menu.Item as='a'>
+          Contact
         </Menu.Item>
       </Sidebar>
+
       <Banner />
       <About />
       <Skills />
