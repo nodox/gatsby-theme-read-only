@@ -5,7 +5,7 @@ import ThemeHeader from './shared/ThemeHeader'
 
 
 const Contact = () => (
-  <ThemeSection>
+  <ThemeSection last>
     <Container>
       <ThemeHeader as='h1'>Contact Me</ThemeHeader>
       <p>
